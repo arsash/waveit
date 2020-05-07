@@ -159,9 +159,18 @@ body {
     background-color: #222;
     background-image: linear-gradient(to right, rgba(242, 36, 86, 0.5) 1px, transparent 1px);
     background-size: 198px;
+    position: relative;
 }
 
 .graphic {
     width: 200px;
     background-color: #f22456;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.graphic__container {
+    
 }
