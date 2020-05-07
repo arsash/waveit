@@ -124,7 +124,7 @@ body {
 }
 
 @media screen and (max-width: 768px){
-    .why__container {
+    .container {
         flex-direction: column;
     }
 
@@ -169,8 +169,4 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.graphic__container {
-    
 }
