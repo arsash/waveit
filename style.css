@@ -123,6 +123,89 @@ body {
     text-align: right;
 }
 
+
+/* Starting second section */
+
+.creation {
+    background-color: #222;
+    background-image: linear-gradient(to right, rgba(242, 36, 86, 0.5) 1px, transparent 1px);
+    background-size: 198px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.graphic {
+    width: 200px;
+    background-color: #f22456;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0;
+}
+
+.container__col-left {
+    width: 300px;
+}
+
+.container__col-right {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.periods {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.periods__block {
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+.periods__block:last-child {
+    width: 65%;
+}
+
+.periods__block-header {
+    margin: 50px 0;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.periods__header {
+    font-size: 17px;
+    font-weight: 500;
+    color: #f22456;
+    margin-bottom: 16px;
+}
+
+.period__text {
+    color: #cdc2b1;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 992px){
+    .container__col-left {
+        display: none;
+    }
+
+    .container__col-right {
+        width: 100%;
+    }
+
+
+}
+
 @media screen and (max-width: 768px){
     .container {
         flex-direction: column;
@@ -151,22 +234,16 @@ body {
     .right-col {
         width: 75%;
     }
-}
 
-/* Starting second section */
+    .periods {
+        flex-direction: column;
+    }
 
-.creation {
-    background-color: #222;
-    background-image: linear-gradient(to right, rgba(242, 36, 86, 0.5) 1px, transparent 1px);
-    background-size: 198px;
-    position: relative;
-}
+    .periods__block {
+        width: 100%;
+    }
 
-.graphic {
-    width: 200px;
-    background-color: #f22456;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .periods__block:last-child {
+        width: 100%;
+    }
 }
