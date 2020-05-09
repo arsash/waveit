@@ -9,7 +9,6 @@ body {
 
 .wrapper {
   width: 100%;
-  
 }
 
 .why {
@@ -119,7 +118,7 @@ body {
     font-size: 20px;
     float: left;
     padding-left: 26px;
-    background-image: url(/img/plus-m.png);
+    background-image: url(../img/plus-m.png);
     background-size: 16px auto;
     background-repeat: no-repeat;
     background-position: 0 5px;
@@ -260,7 +259,7 @@ body {
     font-size: 17px;
     line-height: 1.59;
     padding-left: 26px;
-    background-image: url(/img/plus-m.png);
+    background-image: url(../img/plus-m.png);
     background-size: 16px 16px;
     background-repeat: no-repeat;
     background-position: 0 5px;
